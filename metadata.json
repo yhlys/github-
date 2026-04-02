@@ -1,0 +1,5 @@
+{
+  "name": "GitHub Code Analyzer",
+  "description": "A visualization tool for analyzing GitHub project code and file structure.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html.dark body {
+  background-color: #020617;
+  color: #e2e8f0;
+}
+
+html.dark .bg-white {
+  background-color: #0f172a !important;
+}
+
+html.dark .bg-slate-50 {
+  background-color: #020617 !important;
+}
+
+html.dark .bg-slate-100 {
+  background-color: #1e293b !important;
+}
+
+html.dark .bg-slate-200 {
+  background-color: #1b2638 !important;
+}
+
+html.dark .bg-indigo-100 {
+  background-color: #312e81 !important;
+}
+
+html.dark .bg-indigo-50 {
+  background-color: #1e1b4b !important;
+}
+
+html.dark .bg-emerald-50 {
+  background-color: #052e2b !important;
+}
+
+html.dark .bg-amber-50 {
+  background-color: #3f2a00 !important;
+}
+
+html.dark .bg-red-50 {
+  background-color: #3f0d0d !important;
+}
+
+html.dark .text-slate-900 {
+  color: #f1f5f9 !important;
+}
+
+html.dark .text-slate-800 {
+  color: #e2e8f0 !important;
+}
+
+html.dark .text-slate-700 {
+  color: #cbd5e1 !important;
+}
+
+html.dark .text-slate-600 {
+  color: #94a3b8 !important;
+}
+
+html.dark .text-slate-500 {
+  color: #64748b !important;
+}
+
+html.dark .border-slate-300,
+html.dark .border-slate-200,
+html.dark .border-slate-100 {
+  border-color: #253449 !important;
+}
+
+html.dark input,
+html.dark textarea,
+html.dark select {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #64748b;
+}
+
+html.dark .react-flow {
+  background: radial-gradient(circle at 20% 10%, #0f172a 0%, #020617 60%);
+}
+
+html.dark .react-flow__attribution {
+  background: rgba(15, 23, 42, 0.75);
+  color: #64748b;
+  border: 1px solid #253449;
+}
+
+html.dark .react-flow__controls {
+  box-shadow: 0 2px 10px rgba(2, 6, 23, 0.45);
+  border: 1px solid #253449;
+}
+
+html.dark .react-flow__controls-button {
+  background: #0f172a;
+  color: #cbd5e1;
+  border-bottom: 1px solid #253449;
+}
+
+html.dark .react-flow__controls-button:hover {
+  background: #1e293b;
+}
+
+html.dark .react-flow__minimap {
+  background: #0b1220;
+  border: 1px solid #253449;
+}
+
+html.dark .analysis-page .bg-white,
+html.dark .analysis-page .bg-slate-50,
+html.dark .analysis-page .bg-slate-100,
+html.dark .analysis-page .bg-slate-200 {
+  background-color: #0b1220 !important;
+}
+
+html.dark .analysis-page .bg-slate-100\/95,
+html.dark .analysis-page .bg-white\/95 {
+  background-color: rgba(11, 18, 32, 0.95) !important;
+}
+
+html.dark .analysis-page .analysis-divider {
+  width: 2px !important;
+}
+
+html.dark .analysis-page .analysis-divider-1 {
+  background-color: #263445 !important;
+}
+
+html.dark .analysis-page .analysis-divider-2 {
+  background-color: #2a3d4a !important;
+}
+
+html.dark .analysis-page .analysis-divider-3 {
+  background-color: #35314a !important;
+}
+
+html.dark .file-tree-node-selected {
+  background-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+html.dark .file-tree-node-selected .text-slate-400,
+html.dark .file-tree-node-selected .text-slate-500 {
+  color: #cbd5e1 !important;
+}
+
+html.dark .file-tree-node-selected svg {
+  color: #e2e8f0 !important;
+}
